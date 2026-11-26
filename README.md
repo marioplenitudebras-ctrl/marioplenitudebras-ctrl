@@ -1,6 +1,7 @@
 # Olá, eu sou o Mario 👋
 
 **Desenvolvedor Júnior · Automação com IA · Python · SQL · n8n**
+
 📍 São Paulo, SP · disponível para vagas remotas, híbridas ou presenciais, e para freelance
 
 Construo sistemas web e automações que já estão em uso por clientes reais. Trabalho
