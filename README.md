@@ -13,11 +13,13 @@ testo e coloco no ar.
 ## 🚀 Projetos
 
 ### MargemAlvo: SaaS de gestão financeira
-Aplicação web completa para pequenos negócios controlarem margem e financeiro.
-- **Stack:** Next.js · React · TypeScript · Supabase (PostgreSQL) · Tailwind CSS · Vitest · Vercel
-- Mais de 240 commits desde ago/2026: módulo financeiro, login, painel admin, PWA instalável no celular
-- Design system próprio com componentes reutilizáveis e teste que bloqueia estilos fora do padrão
-- Migrações SQL aplicadas em produção
+Calcula preço de venda, margem real e ponto de equilíbrio de cada produto, e diz o que fazer quando a margem está baixa.
+- **Stack:** Next.js · React · TypeScript · PostgreSQL (Supabase + Drizzle ORM) · Zod · Tailwind CSS · Vitest · Vercel
+- Assinatura recorrente com o Asaas: webhook autenticado e tarefas agendadas (cron)
+- Segurança: login com 2FA, Row Level Security no banco e limite de tentativas
+- IA (Gemini) que explica a ficha do produto a partir de números já calculados pelo código
+- Regras de negócio separadas da interface e cobertas por testes; design system próprio
+- Mais de 240 commits desde ago/2026, com migrações SQL em produção
 - 🌐 [margemalvo.com.br](https://margemalvo.com.br) · código privado (demonstração sob pedido)
 
 ### Bots de atendimento no WhatsApp: freelance para a Se Cuida Boneca
